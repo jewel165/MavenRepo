@@ -16,7 +16,7 @@ public class AmazonSignin extends MVNconfig {
 		ClickByXpath(lc3.Accountlist);
 		TypeByXpath(lc3.emailfield,vl3.emailADD);
 		
-		// will not add the password for now.jkjfjgkjkhjk
+		// will not add the password for now.
 		
 	}
 
