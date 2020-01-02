@@ -10,13 +10,6 @@
           <include name="closebrower"/>
         </methods>
       </class> <!-- AmazonTest.amazonCartTest -->
-      <class name="AmazonTest.AmazonSignin">
-        <methods>
-          <include name="azSignIn"/>
-          <include name="setupbrowser"/>
-          <include name="closebrower"/>
-        </methods>
-      </class> <!-- AmazonTest.AmazonSignin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

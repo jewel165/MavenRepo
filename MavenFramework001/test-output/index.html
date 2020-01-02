@@ -5,7 +5,7 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-testng">
-              <span class="suite-name border-passed">testng</span>
+              <span class="suite-name border-failed">testng</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,40 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods,   10 passed</span>
+                    <span class="method-stats">10 methods, 1 failed,  2 skipped,  7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-testng" class="hide-methods failed suite-testng"> (hide)</a> <!-- hide-methods failed suite-testng -->
+                      <a href="#" panel-name="suite-testng" class="show-methods failed suite-testng"> (show)</a> <!-- show-methods failed suite-testng -->
+                    </span>
+                    <div class="method-list-content failed suite-testng">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng" title="AmazonTest.AmazonHomepage$AmazonHmPage" hash-for-method="AzHomepage">AzHomepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-testng -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-testng" class="hide-methods skipped suite-testng"> (hide)</a> <!-- hide-methods skipped suite-testng -->
+                      <a href="#" panel-name="suite-testng" class="show-methods skipped suite-testng"> (show)</a> <!-- show-methods skipped suite-testng -->
+                    </span>
+                    <div class="method-list-content skipped suite-testng">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng" title="AmazonTest.amazonCartTest" hash-for-method="AddToCart">AddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng" title="AmazonTest.AmazonSignin" hash-for-method="azSignIn">azSignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-testng -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,27 +135,12 @@
                     <div class="method-list-content passed suite-testng">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-testng" title="AmazonTest.amazonCartTest" hash-for-method="AddToCart">AddToCart</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-testng" title="AmazonTest.AmazonHomepage$AmazonHmPage" hash-for-method="AzHomepage">AzHomepage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-testng" title="AmazonTest.AmazonHomepage$AmazonHmPage" hash-for-method="AzLogin">AzLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-testng" title="AmazonTest.AmazonHomepage$AmazonHmPage" hash-for-method="amazonlogoTest">amazonlogoTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-testng" title="AmazonTest.AmazonSignin" hash-for-method="azSignIn">azSignIn</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -162,9 +180,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-testng" class="panel testng">
-          <div class="suite-testng-class-passed">
+          <div class="suite-testng-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">AmazonTest.AmazonHomepage$AmazonHmPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -173,8 +191,160 @@
                   <a name="AzHomepage">
                   </a> <!-- AzHomepage -->
                   <span class="method-name">AzHomepage</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at AmazonTest.AmazonHomepage$AmazonHmPage.AzHomepage(AmazonHomepage.java:33)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testng-class-failed -->
+          <div class="suite-testng-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">AmazonTest.AmazonSignin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="azSignIn">
+                  </a> <!-- azSignIn -->
+                  <span class="method-name">azSignIn</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MDs-MacBook-Air.fios-router.home&apos;, ip: &apos;fe80:0:0:0:18ab:43e7:3cff:7183%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000102d10f09 chromedriver + 3694345
+1   chromedriver                        0x0000000102c9dfd3 chromedriver + 3223507
+2   chromedriver                        0x0000000102a3d58f chromedriver + 730511
+3   chromedriver                        0x00000001029a310b chromedriver + 98571
+4   chromedriver                        0x000000010299f22a chromedriver + 82474
+5   chromedriver                        0x00000001029ccb71 chromedriver + 269169
+6   chromedriver                        0x00000001029c9e83 chromedriver + 257667
+7   chromedriver                        0x00000001029a523d chromedriver + 107069
+8   chromedriver                        0x00000001029a61d5 chromedriver + 111061
+9   chromedriver                        0x0000000102ccc07f chromedriver + 3412095
+10  chromedriver                        0x0000000102cd8ced chromedriver + 3464429
+11  chromedriver                        0x0000000102cd8a78 chromedriver + 3463800
+12  chromedriver                        0x0000000102cab959 chromedriver + 3279193
+13  chromedriver                        0x0000000102cd9548 chromedriver + 3466568
+14  chromedriver                        0x0000000102cc01b7 chromedriver + 3363255
+15  chromedriver                        0x0000000102cf7474 chromedriver + 3589236
+16  chromedriver                        0x0000000102d16ce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff7398ae65 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff7398683b thread_start + 15
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Base.MVNconfig.setupbrowser(MVNconfig.java:23)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testng-class-skipped -->
+          <div class="suite-testng-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">AmazonTest.amazonCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCart">
+                  </a> <!-- AddToCart -->
+                  <span class="method-name">AddToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MDs-MacBook-Air.fios-router.home&apos;, ip: &apos;fe80:0:0:0:18ab:43e7:3cff:7183%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000105930f09 chromedriver + 3694345
+1   chromedriver                        0x00000001058bdfd3 chromedriver + 3223507
+2   chromedriver                        0x000000010565d58f chromedriver + 730511
+3   chromedriver                        0x00000001055c310b chromedriver + 98571
+4   chromedriver                        0x00000001055bf22a chromedriver + 82474
+5   chromedriver                        0x00000001055ecb71 chromedriver + 269169
+6   chromedriver                        0x00000001055e9e83 chromedriver + 257667
+7   chromedriver                        0x00000001055c523d chromedriver + 107069
+8   chromedriver                        0x00000001055c61d5 chromedriver + 111061
+9   chromedriver                        0x00000001058ec07f chromedriver + 3412095
+10  chromedriver                        0x00000001058f8ced chromedriver + 3464429
+11  chromedriver                        0x00000001058f8a78 chromedriver + 3463800
+12  chromedriver                        0x00000001058cb959 chromedriver + 3279193
+13  chromedriver                        0x00000001058f9548 chromedriver + 3466568
+14  chromedriver                        0x00000001058e01b7 chromedriver + 3363255
+15  chromedriver                        0x0000000105917474 chromedriver + 3589236
+16  chromedriver                        0x0000000105936ce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff7398ae65 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff7398683b thread_start + 15
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Base.MVNconfig.setupbrowser(MVNconfig.java:23)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testng-class-skipped -->
+          <div class="suite-testng-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AmazonTest.AmazonHomepage$AmazonHmPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="AzLogin">
@@ -226,36 +396,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-testng-class-passed -->
-          <div class="suite-testng-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">AmazonTest.AmazonSignin</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="azSignIn">
-                  </a> <!-- azSignIn -->
-                  <span class="method-name">azSignIn</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-testng-class-passed -->
-          <div class="suite-testng-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">AmazonTest.amazonCartTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="AddToCart">
-                  </a> <!-- AddToCart -->
-                  <span class="method-name">AddToCart</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-testng-class-passed -->
         </div> <!-- panel testng -->
         <div panel-name="test-xml-testng" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -264,9 +404,9 @@
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;testng&quot; parallel=&quot;tests&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Automation-Test&quot;&gt;
     &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;groups&gt;
       &lt;run&gt;
@@ -280,7 +420,7 @@
       &lt;class name=&quot;AmazonTest.AmazonHomepage&quot;/&gt;
       &lt;class name=&quot;AmazonTest.AmazonSignin&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;/test&gt; &lt;!-- Automation-Test --&gt;
 &lt;/suite&gt; &lt;!-- testng --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -292,7 +432,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test1 (3 classes)</span>
+                <span class="test-name">Automation-Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -392,50 +532,50 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'AddToCart')
-data.setCell(0, 2, 'AmazonTest.amazonCartTest')
-data.setCell(0, 3, 28021);
+data.setCell(0, 1, 'demo3')
+data.setCell(0, 2, 'AmazonTest.AmazonHomepage$AmazonHmPage')
+data.setCell(0, 3, 12);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'azSignIn')
-data.setCell(1, 2, 'AmazonTest.AmazonSignin')
-data.setCell(1, 3, 1075);
+data.setCell(1, 1, 'AzHomepage')
+data.setCell(1, 2, 'AmazonTest.AmazonHomepage$AmazonHmPage')
+data.setCell(1, 3, 11);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'tittle')
+data.setCell(2, 1, 'AzLogin')
 data.setCell(2, 2, 'AmazonTest.AmazonHomepage$AmazonHmPage')
-data.setCell(2, 3, 18);
+data.setCell(2, 3, 5);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'AzHomepage')
+data.setCell(3, 1, 'tittle')
 data.setCell(3, 2, 'AmazonTest.AmazonHomepage$AmazonHmPage')
-data.setCell(3, 3, 6);
+data.setCell(3, 3, 4);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'AzLogin')
-data.setCell(4, 2, 'AmazonTest.AmazonHomepage$AmazonHmPage')
-data.setCell(4, 3, 4);
+data.setCell(4, 1, 'AddToCart')
+data.setCell(4, 2, 'AmazonTest.amazonCartTest')
+data.setCell(4, 3, 2);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'demo')
+data.setCell(5, 1, 'demo4')
 data.setCell(5, 2, 'AmazonTest.AmazonHomepage$AmazonHmPage')
-data.setCell(5, 3, 3);
+data.setCell(5, 3, 1);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'demo2')
+data.setCell(6, 1, 'demo')
 data.setCell(6, 2, 'AmazonTest.AmazonHomepage$AmazonHmPage')
-data.setCell(6, 3, 2);
+data.setCell(6, 3, 1);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'amazonlogoTest')
+data.setCell(7, 1, 'demo2')
 data.setCell(7, 2, 'AmazonTest.AmazonHomepage$AmazonHmPage')
-data.setCell(7, 3, 2);
+data.setCell(7, 3, 1);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'demo4')
+data.setCell(8, 1, 'amazonlogoTest')
 data.setCell(8, 2, 'AmazonTest.AmazonHomepage$AmazonHmPage')
-data.setCell(8, 3, 2);
+data.setCell(8, 3, 1);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'demo3')
-data.setCell(9, 2, 'AmazonTest.AmazonHomepage$AmazonHmPage')
-data.setCell(9, 3, 2);
+data.setCell(9, 1, 'azSignIn')
+data.setCell(9, 2, 'AmazonTest.AmazonSignin')
+data.setCell(9, 3, 1);
 window.suiteTableData['testng']= { tableData: data, tableDiv: 'times-div-testng'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <span class="suite-total-time">Total running time: 39 ms</span>
               <div id="times-div-testng">
               </div> <!-- times-div-testng -->
             </div> <!-- times-div -->
@@ -463,66 +603,76 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">AmazonTest.amazonCartTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setupbrowser(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">AddToCart</span>
-                <span class="method-start">5388 ms</span>
+                <span class="method-start">2658 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">closebrower</span>
-                <span class="method-start">33415 ms</span>
+                <span class="method-start">2664 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">AmazonTest.AmazonHomepage$AmazonHmPage</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">AzHomepage</span>
-                <span class="method-start">33572 ms</span>
+                <span class="method-start">2668 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">AzLogin</span>
-                <span class="method-start">33583 ms</span>
+                <span class="method-start">2682 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">amazonlogoTest</span>
-                <span class="method-start">33607 ms</span>
+                <span class="method-start">2689 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">demo</span>
-                <span class="method-start">33633 ms</span>
+                <span class="method-start">2696 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">demo2</span>
-                <span class="method-start">33640 ms</span>
+                <span class="method-start">2699 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">demo3</span>
-                <span class="method-start">33649 ms</span>
+                <span class="method-start">2701 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">demo4</span>
-                <span class="method-start">33652 ms</span>
+                <span class="method-start">2717 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">tittle</span>
-                <span class="method-start">33656 ms</span>
+                <span class="method-start">2723 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">AmazonTest.AmazonSignin</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setupbrowser(chrome)</span>
-                <span class="method-start">33685 ms</span>
+                <span class="method-start">2729 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">azSignIn</span>
-                <span class="method-start">38767 ms</span>
+                <span class="method-start">4168 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">closebrower</span>
-                <span class="method-start">39843 ms</span>
+                <span class="method-start">4184 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testng]" parallel="tests">
+  <test name="Automation-Test(failed)" parallel="tests">
+    <parameter name="Browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Smoke"/>
+        <include name="Regression"/>
+        <include name="Random"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="AmazonTest.AmazonSignin">
+        <methods>
+          <include name="azSignIn"/>
+          <include name="setupbrowser"/>
+          <include name="closebrower"/>
+        </methods>
+      </class> <!-- AmazonTest.AmazonSignin -->
+      <class name="AmazonTest.amazonCartTest">
+        <methods>
+          <include name="AddToCart"/>
+          <include name="setupbrowser"/>
+          <include name="closebrower"/>
+        </methods>
+      </class> <!-- AmazonTest.amazonCartTest -->
+      <class name="AmazonTest.AmazonHomepage$AmazonHmPage">
+        <methods>
+          <include name="AzHomepage"/>
+        </methods>
+      </class> <!-- AmazonTest.AmazonHomepage$AmazonHmPage -->
+    </classes>
+  </test> <!-- Automation-Test(failed) -->
+</suite> <!-- Failed suite [testng] -->

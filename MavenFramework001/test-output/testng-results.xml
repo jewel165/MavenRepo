@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+<testng-results skipped="2" failed="1" ignored="0" total="10" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="testng" duration-ms="40041" started-at="2019-12-03T22:26:59 EST" finished-at="2019-12-03T22:27:39 EST">
+  <suite name="testng" duration-ms="4205" started-at="2019-12-26T23:09:14Z" finished-at="2019-12-26T23:09:18Z">
     <groups>
       <group name="Random">
-        <method signature="AmazonHomepage$AmazonHmPage.AzHomepage()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="AzHomepage" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
-        <method signature="AmazonHomepage$AmazonHmPage.amazonlogoTest()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="amazonlogoTest" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
-        <method signature="AmazonHomepage$AmazonHmPage.demo()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="demo" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
-        <method signature="AmazonHomepage$AmazonHmPage.demo2()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="demo2" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
-        <method signature="AmazonHomepage$AmazonHmPage.demo3()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="demo3" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
-        <method signature="AmazonHomepage$AmazonHmPage.demo4()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="demo4" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
-        <method signature="AmazonHomepage$AmazonHmPage.tittle()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="tittle" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
-        <method signature="amazonCartTest.AddToCart()[pri:0, instance:AmazonTest.amazonCartTest@2758fe70]" name="AddToCart" class="AmazonTest.amazonCartTest"/>
+        <method signature="AmazonHomepage$AmazonHmPage.AzHomepage()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="AzHomepage" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
+        <method signature="AmazonHomepage$AmazonHmPage.amazonlogoTest()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="amazonlogoTest" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
+        <method signature="AmazonHomepage$AmazonHmPage.demo()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="demo" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
+        <method signature="AmazonHomepage$AmazonHmPage.demo2()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="demo2" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
+        <method signature="AmazonHomepage$AmazonHmPage.demo3()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="demo3" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
+        <method signature="AmazonHomepage$AmazonHmPage.demo4()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="demo4" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
+        <method signature="AmazonHomepage$AmazonHmPage.tittle()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="tittle" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
+        <method signature="amazonCartTest.AddToCart()[pri:0, instance:AmazonTest.amazonCartTest@1356d4d4]" name="AddToCart" class="AmazonTest.amazonCartTest"/>
       </group> <!-- Random -->
       <group name="Regression">
-        <method signature="AmazonHomepage$AmazonHmPage.AzHomepage()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="AzHomepage" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
-        <method signature="AmazonHomepage$AmazonHmPage.AzLogin()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="AzLogin" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
-        <method signature="amazonCartTest.AddToCart()[pri:0, instance:AmazonTest.amazonCartTest@2758fe70]" name="AddToCart" class="AmazonTest.amazonCartTest"/>
+        <method signature="AmazonHomepage$AmazonHmPage.AzHomepage()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="AzHomepage" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
+        <method signature="AmazonHomepage$AmazonHmPage.AzLogin()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="AzLogin" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
+        <method signature="amazonCartTest.AddToCart()[pri:0, instance:AmazonTest.amazonCartTest@1356d4d4]" name="AddToCart" class="AmazonTest.amazonCartTest"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="AmazonHomepage$AmazonHmPage.AzHomepage()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="AzHomepage" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
-        <method signature="AmazonHomepage$AmazonHmPage.AzLogin()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="AzLogin" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
-        <method signature="AmazonSignin.azSignIn()[pri:0, instance:AmazonTest.AmazonSignin@578486a3]" name="azSignIn" class="AmazonTest.AmazonSignin"/>
-        <method signature="amazonCartTest.AddToCart()[pri:0, instance:AmazonTest.amazonCartTest@2758fe70]" name="AddToCart" class="AmazonTest.amazonCartTest"/>
+        <method signature="AmazonHomepage$AmazonHmPage.AzHomepage()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="AzHomepage" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
+        <method signature="AmazonHomepage$AmazonHmPage.AzLogin()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="AzLogin" class="AmazonTest.AmazonHomepage$AmazonHmPage"/>
+        <method signature="AmazonSignin.azSignIn()[pri:0, instance:AmazonTest.AmazonSignin@1329eff]" name="azSignIn" class="AmazonTest.AmazonSignin"/>
+        <method signature="amazonCartTest.AddToCart()[pri:0, instance:AmazonTest.amazonCartTest@1356d4d4]" name="AddToCart" class="AmazonTest.amazonCartTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="Test1" duration-ms="40041" started-at="2019-12-03T22:26:59 EST" finished-at="2019-12-03T22:27:39 EST">
+    <test name="Automation-Test" duration-ms="4205" started-at="2019-12-26T23:09:14Z" finished-at="2019-12-26T23:09:18Z">
       <class name="AmazonTest.amazonCartTest">
-        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:AmazonTest.amazonCartTest@2758fe70]" name="setupbrowser" is-config="true" duration-ms="5386" started-at="2019-12-03T22:26:59 EST" finished-at="2019-12-03T22:27:04 EST">
+        <test-method status="FAIL" signature="setupbrowser(java.lang.String)[pri:0, instance:AmazonTest.amazonCartTest@1356d4d4]" name="setupbrowser" is-config="true" duration-ms="0" started-at="2019-12-26T18:09:14Z" finished-at="2019-12-26T18:09:14Z">
           <params>
             <param index="0">
               <value>
@@ -36,20 +36,257 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:18ab:43e7:3cff:7183%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000105930f09 chromedriver + 3694345
+1   chromedriver                        0x00000001058bdfd3 chromedriver + 3223507
+2   chromedriver                        0x000000010565d58f chromedriver + 730511
+3   chromedriver                        0x00000001055c310b chromedriver + 98571
+4   chromedriver                        0x00000001055bf22a chromedriver + 82474
+5   chromedriver                        0x00000001055ecb71 chromedriver + 269169
+6   chromedriver                        0x00000001055e9e83 chromedriver + 257667
+7   chromedriver                        0x00000001055c523d chromedriver + 107069
+8   chromedriver                        0x00000001055c61d5 chromedriver + 111061
+9   chromedriver                        0x00000001058ec07f chromedriver + 3412095
+10  chromedriver                        0x00000001058f8ced chromedriver + 3464429
+11  chromedriver                        0x00000001058f8a78 chromedriver + 3463800
+12  chromedriver                        0x00000001058cb959 chromedriver + 3279193
+13  chromedriver                        0x00000001058f9548 chromedriver + 3466568
+14  chromedriver                        0x00000001058e01b7 chromedriver + 3363255
+15  chromedriver                        0x0000000105917474 chromedriver + 3589236
+16  chromedriver                        0x0000000105936ce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff7398ae65 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff7398683b thread_start + 15
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:18ab:43e7:3cff:7183%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000105930f09 chromedriver + 3694345
+1   chromedriver                        0x00000001058bdfd3 chromedriver + 3223507
+2   chromedriver                        0x000000010565d58f chromedriver + 730511
+3   chromedriver                        0x00000001055c310b chromedriver + 98571
+4   chromedriver                        0x00000001055bf22a chromedriver + 82474
+5   chromedriver                        0x00000001055ecb71 chromedriver + 269169
+6   chromedriver                        0x00000001055e9e83 chromedriver + 257667
+7   chromedriver                        0x00000001055c523d chromedriver + 107069
+8   chromedriver                        0x00000001055c61d5 chromedriver + 111061
+9   chromedriver                        0x00000001058ec07f chromedriver + 3412095
+10  chromedriver                        0x00000001058f8ced chromedriver + 3464429
+11  chromedriver                        0x00000001058f8a78 chromedriver + 3463800
+12  chromedriver                        0x00000001058cb959 chromedriver + 3279193
+13  chromedriver                        0x00000001058f9548 chromedriver + 3466568
+14  chromedriver                        0x00000001058e01b7 chromedriver + 3363255
+15  chromedriver                        0x0000000105917474 chromedriver + 3589236
+16  chromedriver                        0x0000000105936ce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff7398ae65 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff7398683b thread_start + 15
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at Base.MVNconfig.setupbrowser(MVNconfig.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupbrowser -->
-        <test-method status="PASS" signature="AddToCart()[pri:0, instance:AmazonTest.amazonCartTest@2758fe70]" name="AddToCart" duration-ms="28021" started-at="2019-12-03T22:27:04 EST" finished-at="2019-12-03T22:27:32 EST">
+        <test-method status="SKIP" signature="AddToCart()[pri:0, instance:AmazonTest.amazonCartTest@1356d4d4]" name="AddToCart" duration-ms="2" started-at="2019-12-26T18:09:17Z" finished-at="2019-12-26T18:09:17Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:18ab:43e7:3cff:7183%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000105930f09 chromedriver + 3694345
+1   chromedriver                        0x00000001058bdfd3 chromedriver + 3223507
+2   chromedriver                        0x000000010565d58f chromedriver + 730511
+3   chromedriver                        0x00000001055c310b chromedriver + 98571
+4   chromedriver                        0x00000001055bf22a chromedriver + 82474
+5   chromedriver                        0x00000001055ecb71 chromedriver + 269169
+6   chromedriver                        0x00000001055e9e83 chromedriver + 257667
+7   chromedriver                        0x00000001055c523d chromedriver + 107069
+8   chromedriver                        0x00000001055c61d5 chromedriver + 111061
+9   chromedriver                        0x00000001058ec07f chromedriver + 3412095
+10  chromedriver                        0x00000001058f8ced chromedriver + 3464429
+11  chromedriver                        0x00000001058f8a78 chromedriver + 3463800
+12  chromedriver                        0x00000001058cb959 chromedriver + 3279193
+13  chromedriver                        0x00000001058f9548 chromedriver + 3466568
+14  chromedriver                        0x00000001058e01b7 chromedriver + 3363255
+15  chromedriver                        0x0000000105917474 chromedriver + 3589236
+16  chromedriver                        0x0000000105936ce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff7398ae65 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff7398683b thread_start + 15
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:18ab:43e7:3cff:7183%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000105930f09 chromedriver + 3694345
+1   chromedriver                        0x00000001058bdfd3 chromedriver + 3223507
+2   chromedriver                        0x000000010565d58f chromedriver + 730511
+3   chromedriver                        0x00000001055c310b chromedriver + 98571
+4   chromedriver                        0x00000001055bf22a chromedriver + 82474
+5   chromedriver                        0x00000001055ecb71 chromedriver + 269169
+6   chromedriver                        0x00000001055e9e83 chromedriver + 257667
+7   chromedriver                        0x00000001055c523d chromedriver + 107069
+8   chromedriver                        0x00000001055c61d5 chromedriver + 111061
+9   chromedriver                        0x00000001058ec07f chromedriver + 3412095
+10  chromedriver                        0x00000001058f8ced chromedriver + 3464429
+11  chromedriver                        0x00000001058f8a78 chromedriver + 3463800
+12  chromedriver                        0x00000001058cb959 chromedriver + 3279193
+13  chromedriver                        0x00000001058f9548 chromedriver + 3466568
+14  chromedriver                        0x00000001058e01b7 chromedriver + 3363255
+15  chromedriver                        0x0000000105917474 chromedriver + 3589236
+16  chromedriver                        0x0000000105936ce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff7398ae65 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff7398683b thread_start + 15
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at Base.MVNconfig.setupbrowser(MVNconfig.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddToCart -->
-        <test-method status="PASS" signature="closebrower()[pri:0, instance:AmazonTest.amazonCartTest@2758fe70]" name="closebrower" is-config="true" duration-ms="155" started-at="2019-12-03T22:27:32 EST" finished-at="2019-12-03T22:27:32 EST">
+        <test-method status="FAIL" signature="closebrower()[pri:0, instance:AmazonTest.amazonCartTest@1356d4d4]" name="closebrower" is-config="true" duration-ms="0" started-at="2019-12-26T18:09:17Z" finished-at="2019-12-26T18:09:17Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Base.MVNconfig.closebrower(MVNconfig.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrower -->
       </class> <!-- AmazonTest.amazonCartTest -->
       <class name="AmazonTest.AmazonSignin">
-        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:AmazonTest.AmazonSignin@578486a3]" name="setupbrowser" is-config="true" duration-ms="5082" started-at="2019-12-03T22:27:32 EST" finished-at="2019-12-03T22:27:37 EST">
+        <test-method status="FAIL" signature="setupbrowser(java.lang.String)[pri:0, instance:AmazonTest.AmazonSignin@1329eff]" name="setupbrowser" is-config="true" duration-ms="0" started-at="2019-12-26T18:09:17Z" finished-at="2019-12-26T18:09:17Z">
           <params>
             <param index="0">
               <value>
@@ -57,52 +294,316 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:18ab:43e7:3cff:7183%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000102d10f09 chromedriver + 3694345
+1   chromedriver                        0x0000000102c9dfd3 chromedriver + 3223507
+2   chromedriver                        0x0000000102a3d58f chromedriver + 730511
+3   chromedriver                        0x00000001029a310b chromedriver + 98571
+4   chromedriver                        0x000000010299f22a chromedriver + 82474
+5   chromedriver                        0x00000001029ccb71 chromedriver + 269169
+6   chromedriver                        0x00000001029c9e83 chromedriver + 257667
+7   chromedriver                        0x00000001029a523d chromedriver + 107069
+8   chromedriver                        0x00000001029a61d5 chromedriver + 111061
+9   chromedriver                        0x0000000102ccc07f chromedriver + 3412095
+10  chromedriver                        0x0000000102cd8ced chromedriver + 3464429
+11  chromedriver                        0x0000000102cd8a78 chromedriver + 3463800
+12  chromedriver                        0x0000000102cab959 chromedriver + 3279193
+13  chromedriver                        0x0000000102cd9548 chromedriver + 3466568
+14  chromedriver                        0x0000000102cc01b7 chromedriver + 3363255
+15  chromedriver                        0x0000000102cf7474 chromedriver + 3589236
+16  chromedriver                        0x0000000102d16ce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff7398ae65 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff7398683b thread_start + 15
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:18ab:43e7:3cff:7183%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000102d10f09 chromedriver + 3694345
+1   chromedriver                        0x0000000102c9dfd3 chromedriver + 3223507
+2   chromedriver                        0x0000000102a3d58f chromedriver + 730511
+3   chromedriver                        0x00000001029a310b chromedriver + 98571
+4   chromedriver                        0x000000010299f22a chromedriver + 82474
+5   chromedriver                        0x00000001029ccb71 chromedriver + 269169
+6   chromedriver                        0x00000001029c9e83 chromedriver + 257667
+7   chromedriver                        0x00000001029a523d chromedriver + 107069
+8   chromedriver                        0x00000001029a61d5 chromedriver + 111061
+9   chromedriver                        0x0000000102ccc07f chromedriver + 3412095
+10  chromedriver                        0x0000000102cd8ced chromedriver + 3464429
+11  chromedriver                        0x0000000102cd8a78 chromedriver + 3463800
+12  chromedriver                        0x0000000102cab959 chromedriver + 3279193
+13  chromedriver                        0x0000000102cd9548 chromedriver + 3466568
+14  chromedriver                        0x0000000102cc01b7 chromedriver + 3363255
+15  chromedriver                        0x0000000102cf7474 chromedriver + 3589236
+16  chromedriver                        0x0000000102d16ce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff7398ae65 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff7398683b thread_start + 15
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at Base.MVNconfig.setupbrowser(MVNconfig.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupbrowser -->
-        <test-method status="PASS" signature="azSignIn()[pri:0, instance:AmazonTest.AmazonSignin@578486a3]" name="azSignIn" duration-ms="1075" started-at="2019-12-03T22:27:37 EST" finished-at="2019-12-03T22:27:39 EST">
+        <test-method status="SKIP" signature="azSignIn()[pri:0, instance:AmazonTest.AmazonSignin@1329eff]" name="azSignIn" duration-ms="1" started-at="2019-12-26T18:09:18Z" finished-at="2019-12-26T18:09:18Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:18ab:43e7:3cff:7183%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000102d10f09 chromedriver + 3694345
+1   chromedriver                        0x0000000102c9dfd3 chromedriver + 3223507
+2   chromedriver                        0x0000000102a3d58f chromedriver + 730511
+3   chromedriver                        0x00000001029a310b chromedriver + 98571
+4   chromedriver                        0x000000010299f22a chromedriver + 82474
+5   chromedriver                        0x00000001029ccb71 chromedriver + 269169
+6   chromedriver                        0x00000001029c9e83 chromedriver + 257667
+7   chromedriver                        0x00000001029a523d chromedriver + 107069
+8   chromedriver                        0x00000001029a61d5 chromedriver + 111061
+9   chromedriver                        0x0000000102ccc07f chromedriver + 3412095
+10  chromedriver                        0x0000000102cd8ced chromedriver + 3464429
+11  chromedriver                        0x0000000102cd8a78 chromedriver + 3463800
+12  chromedriver                        0x0000000102cab959 chromedriver + 3279193
+13  chromedriver                        0x0000000102cd9548 chromedriver + 3466568
+14  chromedriver                        0x0000000102cc01b7 chromedriver + 3363255
+15  chromedriver                        0x0000000102cf7474 chromedriver + 3589236
+16  chromedriver                        0x0000000102d16ce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff7398ae65 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff7398683b thread_start + 15
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:18ab:43e7:3cff:7183%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000102d10f09 chromedriver + 3694345
+1   chromedriver                        0x0000000102c9dfd3 chromedriver + 3223507
+2   chromedriver                        0x0000000102a3d58f chromedriver + 730511
+3   chromedriver                        0x00000001029a310b chromedriver + 98571
+4   chromedriver                        0x000000010299f22a chromedriver + 82474
+5   chromedriver                        0x00000001029ccb71 chromedriver + 269169
+6   chromedriver                        0x00000001029c9e83 chromedriver + 257667
+7   chromedriver                        0x00000001029a523d chromedriver + 107069
+8   chromedriver                        0x00000001029a61d5 chromedriver + 111061
+9   chromedriver                        0x0000000102ccc07f chromedriver + 3412095
+10  chromedriver                        0x0000000102cd8ced chromedriver + 3464429
+11  chromedriver                        0x0000000102cd8a78 chromedriver + 3463800
+12  chromedriver                        0x0000000102cab959 chromedriver + 3279193
+13  chromedriver                        0x0000000102cd9548 chromedriver + 3466568
+14  chromedriver                        0x0000000102cc01b7 chromedriver + 3363255
+15  chromedriver                        0x0000000102cf7474 chromedriver + 3589236
+16  chromedriver                        0x0000000102d16ce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff7398ae65 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff7398683b thread_start + 15
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at Base.MVNconfig.setupbrowser(MVNconfig.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- azSignIn -->
-        <test-method status="PASS" signature="closebrower()[pri:0, instance:AmazonTest.AmazonSignin@578486a3]" name="closebrower" is-config="true" duration-ms="161" started-at="2019-12-03T22:27:39 EST" finished-at="2019-12-03T22:27:39 EST">
+        <test-method status="FAIL" signature="closebrower()[pri:0, instance:AmazonTest.AmazonSignin@1329eff]" name="closebrower" is-config="true" duration-ms="0" started-at="2019-12-26T18:09:18Z" finished-at="2019-12-26T18:09:18Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Base.MVNconfig.closebrower(MVNconfig.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrower -->
       </class> <!-- AmazonTest.AmazonSignin -->
       <class name="AmazonTest.AmazonHomepage$AmazonHmPage">
-        <test-method status="PASS" signature="AzHomepage()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="AzHomepage" duration-ms="6" started-at="2019-12-03T22:27:32 EST" finished-at="2019-12-03T22:27:32 EST">
+        <test-method status="FAIL" signature="AzHomepage()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="AzHomepage" duration-ms="11" started-at="2019-12-26T18:09:17Z" finished-at="2019-12-26T18:09:17Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at AmazonTest.AmazonHomepage$AmazonHmPage.AzHomepage(AmazonHomepage.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AzHomepage -->
-        <test-method status="PASS" signature="AzLogin()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="AzLogin" duration-ms="4" started-at="2019-12-03T22:27:32 EST" finished-at="2019-12-03T22:27:32 EST">
+        <test-method status="PASS" signature="AzLogin()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="AzLogin" duration-ms="5" started-at="2019-12-26T18:09:17Z" finished-at="2019-12-26T18:09:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AzLogin -->
-        <test-method status="PASS" signature="amazonlogoTest()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="amazonlogoTest" duration-ms="2" started-at="2019-12-03T22:27:32 EST" finished-at="2019-12-03T22:27:32 EST">
+        <test-method status="PASS" signature="amazonlogoTest()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="amazonlogoTest" duration-ms="1" started-at="2019-12-26T18:09:17Z" finished-at="2019-12-26T18:09:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazonlogoTest -->
-        <test-method status="PASS" signature="demo()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="demo" duration-ms="3" started-at="2019-12-03T22:27:32 EST" finished-at="2019-12-03T22:27:32 EST">
+        <test-method status="PASS" signature="demo()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="demo" duration-ms="1" started-at="2019-12-26T18:09:17Z" finished-at="2019-12-26T18:09:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
-        <test-method status="PASS" signature="demo2()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="demo2" duration-ms="2" started-at="2019-12-03T22:27:32 EST" finished-at="2019-12-03T22:27:32 EST">
+        <test-method status="PASS" signature="demo2()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="demo2" duration-ms="1" started-at="2019-12-26T18:09:17Z" finished-at="2019-12-26T18:09:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo2 -->
-        <test-method status="PASS" signature="demo3()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="demo3" duration-ms="2" started-at="2019-12-03T22:27:32 EST" finished-at="2019-12-03T22:27:32 EST">
+        <test-method status="PASS" signature="demo3()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="demo3" duration-ms="12" started-at="2019-12-26T18:09:17Z" finished-at="2019-12-26T18:09:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo3 -->
-        <test-method status="PASS" signature="demo4()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="demo4" duration-ms="2" started-at="2019-12-03T22:27:32 EST" finished-at="2019-12-03T22:27:32 EST">
+        <test-method status="PASS" signature="demo4()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="demo4" duration-ms="1" started-at="2019-12-26T18:09:17Z" finished-at="2019-12-26T18:09:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo4 -->
-        <test-method status="PASS" signature="tittle()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@1f36e637]" name="tittle" duration-ms="18" started-at="2019-12-03T22:27:32 EST" finished-at="2019-12-03T22:27:32 EST">
+        <test-method status="PASS" signature="tittle()[pri:0, instance:AmazonTest.AmazonHomepage$AmazonHmPage@c03cf28]" name="tittle" duration-ms="4" started-at="2019-12-26T18:09:17Z" finished-at="2019-12-26T18:09:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tittle -->
       </class> <!-- AmazonTest.AmazonHomepage$AmazonHmPage -->
-    </test> <!-- Test1 -->
+    </test> <!-- Automation-Test -->
   </suite> <!-- testng -->
 </testng-results>
